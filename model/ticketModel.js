@@ -36,6 +36,37 @@ const ticket = mongoose.Schema({
         }
     ]
 
-})
+});
 
 module.exports = mongoose.model('Ticket',ticket);
+
+// {
+//     "tickettype" : "Bugs",
+//     "ticketstatus" : "Open",
+//     "tickettitle" : "UI bug",
+//     "ticketdescription" : "Bug in user interface",
+//     "ticketduedate" : "2024-07-01T00:00:00.000Z",
+//     "ticketattachment" : [
+//         {
+//             "filename": "screenshot.png",
+//             "type": "image/png"
+//         },
+//         {
+//             "filename": "error.log",
+//             "type": "text/plain"
+//         }
+//     ],
+//     "ticketallocatedid" : "12345",
+//     "ticketremark" : [
+//         {
+//             "userid": "67890",
+//             "remark": "Initial report",
+//             "date": "2024-06-23T12:00:00.000Z"
+//         },
+//         {
+//             "userid": "54321",
+//             "remark": "Assigned to developer",
+//             "date": "2024-06-24T08:00:00.000Z"
+//         }
+//     ]
+// }
