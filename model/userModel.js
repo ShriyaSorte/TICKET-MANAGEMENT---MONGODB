@@ -18,3 +18,20 @@ const userSchema = mongoose.Schema({
 
 
 module.exports = mongoose.model('User',userSchema);
+
+
+// {
+//     "uname":"demo2",
+//     "uemail":"demo2@gmail",
+//     "umobile":1234,
+//     "ugender":"female",
+//     "uage":24,
+//     "udesignation":"b",
+//     "utype":"b",
+//     "upassword":"b",
+//     "uisdeleted":"b",
+//     "ucreatedby":"b",
+//     "umodifiedby":"b",
+//     "ucreatedat":"2020-06-20T11:13Z",
+//     "umodifiedat":"2020-06-20T11:13Z"
+// }
