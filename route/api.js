@@ -11,5 +11,8 @@ router.delete('/deleteuser/:id',userContoller.deleteuser);
 
 // Ticket routes
 router.post('/addticket',ticketController.addticket);
+router.get('/getticket',ticketController.getticket);
+router.patch('/updateticket/:id',ticketController.updateticket);
+router.delete('/deleteticket/:id',ticketController.deleteticket);
 
 module.exports = router;
